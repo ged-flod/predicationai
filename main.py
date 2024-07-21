@@ -57,7 +57,7 @@ sermon_length = st.sidebar.selectbox("Choisissez une longueur de sermon:", sermo
 
 # User input for Gemini API key
 # api_key = st.sidebar.text_input("Gemini API Key", type="password", value="AIzaSyDybIK0Bw6WYe-ZFM235KWRL2xxYuX8ryQ")
-api_key = "AIzaSyDybIK0Bw6WYe-ZFM235KWRL2xxYuX8ryQ"
+api_key = "AIzaSyDpoPAKKc6dJ8lVM6CgOnTzd3j5J5eAbLQ"
 
 if st.sidebar.button("Générateur la prédiction"):
     
@@ -88,9 +88,10 @@ if st.sidebar.button("Générateur la prédiction"):
     
     Tonalité: {tone}\n
     Orateur: {orateur}\n
-    Longueur du sermon: {sermon_length}\n
+    Longueur de la prédication: {sermon_length}\n
 
     Veuillez créer une prédication complète qui suit ces directives et qui inspire et édifie l'auditoire. Assurez-vous d'inclure des exemples pertinents, des histoires ou des anecdotes, des citations des textes de bases, et des appels à l'action clairs. Le ton doit correspondre à la tonalité choisie et refléter le style de l'orateur sélectionné.
+    Respecte aussi la Longueur de la prédication (notre de mots que tu vas generer)
     """
 
     # Configure Gemini API
