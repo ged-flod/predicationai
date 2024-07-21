@@ -17,11 +17,11 @@ from options import orateurs
 
 
 # Streamlit app configuration
-st.set_page_config(page_title="Prédiction AI", page_icon=":video_camera:")
+st.set_page_config(page_title="Prédication AI", page_icon=":video_camera:")
 
 # Page title
-st.title("Prédiction AI")
-st.subheader("Un générateur de prédictions par Intelligence Artificielle")
+st.title("Prédication AI")
+st.subheader("Un générateur de prédications par Intelligence Artificielle")
 st.divider()
 
 # User input for YouTube video IDs
