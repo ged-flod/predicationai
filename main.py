@@ -17,10 +17,10 @@ from options import orateurs
 
 
 # Streamlit app configuration
-st.set_page_config(page_title="Prediction AI", page_icon=":video_camera:")
+st.set_page_config(page_title="Prédiction AI", page_icon=":video_camera:")
 
 # Page title
-st.title("Prediction AI")
+st.title("Prédiction AI")
 st.subheader("Un générateur de prédictions par Intelligence Artificielle")
 st.divider()
 
