@@ -21,14 +21,14 @@ st.set_page_config(page_title="Prédication AI", page_icon=":video_camera:")
 
 # Page title
 st.title("Prédication AI")
-st.subheader("Un générateur de prédications par Intelligence Artificielle")
+st.subheader("Générateur de prédications avec Intelligence Artificielle")
 st.divider()
 
 # User input for YouTube video IDs
 st.sidebar.header("MENU")
 
 # INPUTS
-theme = st.sidebar.text_input(label="Theme", value="")
+theme = st.sidebar.text_input(label="Thème ", value="")
 objectifs = st.sidebar.text_input(label="Objectifs du sermon ", value="")
 textes = st.sidebar.text_input(label="Textes de bases ", value="", help="Proposer le texte de base")
 contexte = st.sidebar.text_area(label="Mise en contexte ", value="", help="Expliquer le thème/Textes de base")
@@ -44,7 +44,7 @@ style_option_liste = list(style.keys())
 style_description = "Voici le model de style de prédication"
 style_option = st.sidebar.selectbox("Choisissez un style de prédication:", style_option_liste, help=style_description)
 # TONALITE
-tone = st.sidebar.text_input(label="Choisir la Tonalite ", value="")
+tone = st.sidebar.text_input(label="Choisir la Tonalité", value="")
 # ORATEURS
 orateur = st.sidebar.selectbox("Choisissez un orateur:", orateurs)
 # SERMON_LENGTH
